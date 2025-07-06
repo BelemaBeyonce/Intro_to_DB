@@ -18,8 +18,8 @@ FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 
 CREATE TABLE Customers(
 customer_id INT PRIMARY KEY AUTO_INCREMENT,
-email VARCHAR (215),
-customer_name VARCHAR (215),
+email VARCHAR(215),
+customer_name VARCHAR(215),
 address TEXT);
 
 CREATE TABLE Orders(
