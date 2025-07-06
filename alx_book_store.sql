@@ -1,4 +1,4 @@
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 USE alx_book_store;
 
@@ -35,6 +35,8 @@ FOREIGN KEY (book_id) REFERENCES Books(book_id),
 order_id INT,
 book_id INT,
 quantity DOUBLE);
+
+
 
 
 
